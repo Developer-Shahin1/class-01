@@ -1,0 +1,120 @@
+
+
+@inurl("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body{
+    font-family: "Poppins", sans-serif; 
+    background-color: rgb(125, 175, 175);
+    
+}
+
+/* img{
+    max-width: 100%;
+} */
+.appointment{
+    
+    /* display: flex; */
+    max-width: 1000px;
+    margin: 0 auto;
+}
+img{
+
+    max-width: 100%;
+}
+.appointment-img img{
+border-radius: 8px;
+}
+.appointment-form h1{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0;
+    
+}
+.appointment-form form{
+    padding: 20px;
+    border: 1px solid rgb(117, 98, 98);
+     border-radius: 10px; 
+}
+.appointment-form input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border: 2px solid rgb(134, 129, 129);
+    border-radius: 10px;
+} 
+.appointment-form textarea{
+    height: 200px;
+    width: 100%;
+    font-size: 20px;
+     border-radius: 10px;
+    box-sizing: border-box;
+    border: 2px solid rgb(134, 129, 129);
+     font-family: "Poppins", sans-serif; 
+     padding: 10px;
+     margin-bottom: 20px;
+    
+}
+
+
+.gender{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+.gender input{
+     width: 30px; 
+     height: 15px; 
+}
+input.form-btn{
+    border: none;
+    background-color: blue;
+    color: aliceblue;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+@media (min-width:500px) {
+   .appointment-form {
+    background-color: rgb(92, 178, 149);
+   }
+}
+
+@media (min-width: 700px) {
+    .appointment-wrapper {
+        display: flex;
+        
+         
+}
+.appointment-img img{
+    height: 100;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px 0 0 8px ;
+}
+.appointment-form form{
+    border-radius: 0px 8px 8px 0px ;
+    background-color: rgb(51, 203, 203);
+}
+
+}
+@media (min-width: 817px) {
+    
+.appointment-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px ;
+}
+
+}
+@media (min-width: 832px) {
+    
+.appointment-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px ;
+}
+
+ )
